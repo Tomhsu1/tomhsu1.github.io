@@ -14,8 +14,6 @@ function appear(choice) {
 }
 
 function disappear() {
-  if (custom === false && filin === false) {
   document.getElementById("customer").style.visibility = "hidden";
   document.getElementById("filing").style.visibility = "hidden";
-  }
 }
