@@ -1,7 +1,6 @@
-body {
-  /*background-image: url("Assets/Purple_Background.jpg");*/
+#customer #filing {
+  visibility: hidden;
 }
-
 h1, h2 {
   text-align: center;
 }
@@ -15,7 +14,4 @@ th {
 td {
   border: 1px solid black;
   margin: auto;
-}
-#hover {
-  visibility: hidden;
 }
