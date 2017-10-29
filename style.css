@@ -1,5 +1,27 @@
 #customer, #filing, #css, #publicSpeaking, #fcp {
   visibility: hidden;
+  position: absolute;
+}
+div.slide-right {
+  overflow: hidden;
+  width: 100%;
+
+}
+
+div.slide-right p {
+  animation: slide-right 5s;
+  overflow: hidden;
+
+}
+@keyframes slide-right{
+  from {
+    margin-left: 0%;
+    width: 0%;
+  }
+  to {
+    margin-left: 45%;
+    width: 100%;
+  }
 }
 h1, h2 {
   text-align: center;
@@ -14,4 +36,18 @@ th {
 td {
   border: 1px solid black;
   margin: auto;
+}
+h1.stop {
+  width: 800px;
+  text-align: center;
+  background-color: #6B6363;
+}
+h1.hiding {
+  width: 800px;
+  background-color: red;
+}
+button.main {
+  width: 200px;
+  height: 50px;
+  background-color: #6B6363;
 }
