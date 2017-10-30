@@ -38,13 +38,9 @@ td {
   margin: auto;
 }
 h1.stop {
-  width: 800px;
+  width: auto;
   text-align: center;
   background-color: #6B6363;
-}
-h1.hiding {
-  width: 800px;
-  background-color: red;
 }
 button.main {
   width: 200px;
