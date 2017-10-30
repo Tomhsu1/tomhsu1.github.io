@@ -37,6 +37,7 @@ th {
 td {
   border: 1px solid black;
   margin: auto;
+  width: auto;
 }
 h1.stop {
   width: auto;
