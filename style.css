@@ -40,6 +40,7 @@ td {
 h1.stop {
   width: auto;
   text-align: center;
+  margin: auto;
   background-color: #6B6363;
 }
 button.main {
