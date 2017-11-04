@@ -10,6 +10,9 @@ body.skills {
 p {
   color: #1100FF;
   font-size: 20px;
+  margin-left: 135px;
+  margin-right: 120px;
+  background-color: white;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
