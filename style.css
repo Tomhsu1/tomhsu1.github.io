@@ -50,12 +50,12 @@ td {
   margin: auto;
   width: auto;
 }
-h1.stop {
+/*h1.stop {
   width: auto;
   text-align: center;
   margin: auto;
   background-color: #6B6363;
-}
+}*/
 button.main {
   width: 178px;
   height: 50px;
@@ -65,6 +65,6 @@ button.main {
 }
 button.blank {
   color: #1100FF;
-  background-color: black;
+  background-color: white;
   border: none;
 }
