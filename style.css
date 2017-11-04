@@ -1,5 +1,10 @@
 body {
-  background-color: #242424;
+  background-color: #333333;
+}
+
+body.skills {
+  background-color: #333333;
+  overflow: hidden;
 }
 
 p {
@@ -10,7 +15,16 @@ p {
 #customer, #filing, #css, #publicSpeaking, #fcp {
   visibility: hidden;
   position: absolute;
+  overflow: hidden;
 }
+p #customer, #filing, #css, #publicSpeaking, #fcp {
+  overflow: hidden;
+}
+
+ td button {
+  color: #1100FF;
+}
+
 div.slide-right {
   overflow: hidden;
   width: 100%;
