@@ -12,7 +12,6 @@ p {
   font-size: 20px;
   margin-left: 135px;
   margin-right: 120px;
-  background-color: #333333;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
@@ -22,6 +21,7 @@ p {
 }
 p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
+  background-color: #333333;
 }
 
  td button {
