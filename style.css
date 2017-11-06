@@ -21,7 +21,6 @@ p {
 }
 p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
-  background-color: #333333;
 }
 
  td button {
