@@ -12,7 +12,7 @@ p {
   font-size: 20px;
   margin-left: 135px;
   margin-right: 120px;
-  background-color: none;
+  background-color: #333333;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
