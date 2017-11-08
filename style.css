@@ -23,7 +23,7 @@ p {
 }
 p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
-  margin: 100px;
+  margin-right: 100px;
 }
 
  td button {
