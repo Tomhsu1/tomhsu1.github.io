@@ -8,9 +8,11 @@ body.skills {
 }
 
 p, ol {
-  color: #1100FF;
+  color: white;
   font-size: 20px;
-  background-color: white;
+  margin-right: 130px;
+  margin-left: 130px;
+  background-color: #1100FF;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
