@@ -1,14 +1,42 @@
+body {
+  background-color: #333333;
+}
+
+body.skills {
+  background-color: #333333;
+  overflow: hidden;
+}
+
+p, ol {
+  color: white;
+  font-size: 20px;
+  margin-right: 130px;
+  margin-left: 130px;
+  background-color: #1100FF;
+}
+
 #customer, #filing, #css, #publicSpeaking, #fcp {
   visibility: hidden;
   position: absolute;
+  overflow: hidden;
 }
+
+ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
+  overflow: hidden;
+  max-width: 200px;
+}
+
+ td button {
+  color: #1100FF;
+}
+
 div.slide-right {
   overflow: hidden;
   width: 100%;
 
 }
 
-div.slide-right p {
+div.slide-right p, ol {
   animation: slide-right 5s;
   overflow: hidden;
 
@@ -19,12 +47,15 @@ div.slide-right p {
     width: 0%;
   }
   to {
-    margin-left: 42%;
+    margin-left: 41%;
     width: 100%;
   }
 }
 h1, h2 {
   text-align: center;
+  font-weight: bold;
+  color: #1100FF;
+
 }
 table {
   border: 1px solid black;
@@ -39,14 +70,21 @@ td {
   margin: auto;
   width: auto;
 }
-h1.stop {
+/*h1.stop {
   width: auto;
   text-align: center;
   margin: auto;
   background-color: #6B6363;
-}
+}*/
 button.main {
-  width: 200px;
+  width: 178px;
   height: 50px;
   background-color: #6B6363;
+  margin: auto;
+  position:relative;
+}
+button.blank {
+  color: #1100FF;
+  background-color: white;
+  border: none;
 }
