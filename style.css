@@ -88,3 +88,6 @@ button.blank {
   background-color: white;
   border: none;
 }
+form {
+  margin-left: 130px;
+}
