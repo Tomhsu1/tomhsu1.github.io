@@ -7,13 +7,10 @@ body.skills {
   overflow: hidden;
 }
 
-p {
-/*   color: #1100FF; */
-  color: white;
+p, ol {
+  color: #1100FF;
   font-size: 20px;
-  margin-left: 135px;
-  margin-right: 120px;
-  background-color: #1073E5;
+  background-color: white;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
@@ -21,9 +18,10 @@ p {
   position: absolute;
   overflow: hidden;
 }
-p #customer, #filing, #css, #publicSpeaking, #fcp {
+
+ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
-  margin-right: 200px;
+  max-width: 200px;
 }
 
  td button {
@@ -36,7 +34,7 @@ div.slide-right {
 
 }
 
-div.slide-right p {
+div.slide-right p, ol {
   animation: slide-right 5s;
   overflow: hidden;
 
@@ -47,7 +45,7 @@ div.slide-right p {
     width: 0%;
   }
   to {
-    margin-left: 45%;
+    margin-left: 41%;
     width: 100%;
   }
 }
