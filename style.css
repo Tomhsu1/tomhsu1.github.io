@@ -18,6 +18,7 @@ p, ol {
   position: absolute;
   overflow: hidden;
 }
+
 ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
   max-width: 200px;
