@@ -69,6 +69,7 @@ td {
   border: 1px solid black;
   margin: auto;
   width: auto;
+  height: auto;
 }
 /*h1.stop {
   width: auto;
@@ -87,6 +88,8 @@ button.blank {
   color: #1100FF;
   background-color: white;
   border: none;
+  margin: auto;
+  width: auto;
 }
 form {
   margin-left: 130px;
