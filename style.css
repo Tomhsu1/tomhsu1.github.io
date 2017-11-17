@@ -1,9 +1,6 @@
 body {
   background-color: #333333;
 }
-div {
- position: absolute; 
-}
 body.skills {
   background-color: #333333;
   overflow: hidden;
