@@ -24,7 +24,6 @@ p, ol {
 ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
   overflow: hidden;
   max-width: 200px;
-  text-align: center;
 }
 
  td button {
