@@ -7,11 +7,12 @@ body.skills {
 }
 
 p, ol {
-  color: white;
+  color: pink;
   font-size: 20px;
   margin-right: 130px;
   margin-left: 130px;
-  background-color: #1100FF;
+  /*background-color: #1100FF;*/
+  background-color: blue;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
@@ -36,7 +37,7 @@ div.slide-right {
 }
 
 div.slide-right p, ol {
-  animation: slide-right 5s;
+  animation: slide-right 2s;
   overflow: hidden;
 
 }
@@ -121,5 +122,30 @@ input[type=submit]:hover {
 div.information {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+p.spacing {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+h1.underneath {
+  opacity: 0.4;
+  position: absolute;
+  font-size: 170px;
+  margin-left: 170px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  color: red;
+  transform:rotate(352deg);
+}
+h1.normalUnderneath {
+  opacity: 0.4;
+  /*position: absolute;*/
+  font-size: 200px;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  /*transform:rotate(350deg);*/
 }
