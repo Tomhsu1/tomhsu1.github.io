@@ -10,9 +10,10 @@ p, ol {
   color: pink;
   font-size: 20px;
   margin-right: 130px;
-  margin-left: 130px;
+  margin-left: 110px;
   /*background-color: #1100FF;*/
   background-color: blue;
+  padding-left: 30px;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
@@ -33,7 +34,7 @@ ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
 div.slide-right {
   overflow: hidden;
   width: 100%;
-
+  padding-bottom: 30px;
 }
 
 div.slide-right p, ol {
@@ -132,13 +133,13 @@ p.spacing {
 h1.underneath {
   opacity: 0.4;
   position: absolute;
-  font-size: 170px;
-  margin-left: 170px;
+  font-size: 175px;
+  margin-left: 190px;
   margin-top: auto;
   margin-bottom: auto;
   margin-right: auto;
   color: red;
-  transform:rotate(352deg);
+  transform:rotate(354deg);
 }
 h1.normalUnderneath {
   opacity: 0.4;
