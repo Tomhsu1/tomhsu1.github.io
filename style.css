@@ -1,5 +1,8 @@
 body {
   background-color: #333333;
+  background-image: url("Assets/avatar.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 body.skills {
   background-color: #333333;
@@ -34,7 +37,7 @@ ol, p #customer, #filing, #css, #publicSpeaking, #fcp {
 div.slide-right {
   overflow: hidden;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 div.slide-right p, ol {
