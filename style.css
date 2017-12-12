@@ -9,8 +9,8 @@ body.skills {
 p, ol {
   color: pink;
   font-size: 20px;
-  margin-right: 130px;
-  margin-left: 110px;
+  margin-right: 110px;
+  margin-left: 120px;
   /*background-color: #1100FF;*/
   background-color: blue;
   padding-left: 30px;
@@ -41,7 +41,6 @@ div.slide-right {
 div.slide-right p, ol {
   animation: slide-right 3s;
   overflow: hidden;
-
 }
 @keyframes slide-right{
   from {
@@ -124,29 +123,33 @@ input[type=submit]:hover {
 div.information {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding-top: 100px;
     padding-right: 100px;
 }
 p.spacing {
   margin-top: 50px;
   margin-bottom: 80px;
 }
+p.extraSpacing {
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
 h1.underneath {
   opacity: 0.4;
   position: absolute;
   font-size: 175px;
-  margin-left: 190px;
+  margin-left: 200px;
   margin-top: auto;
+  font-size: auto;
   margin-bottom: auto;
   margin-right: auto;
   color: red;
-  transform:rotate(354deg);
+  transform:rotate(356deg);
 }
-h1.normalUnderneath {
-  opacity: 0.4;
+h1.normal {
+  /*opacity: 0.4;*/
   /*position: absolute;*/
   font-size: 200px;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
   color: red;
   /*transform:rotate(350deg);*/
@@ -160,26 +163,45 @@ h1.normalUnderneath {
 .sizing {
   font-size: 100px;
 }
+.sizingP {
+  font-size: 50px;
+}
 .sizingEx {
   font-size: 100px;
   margin-right: 100px;
+}
+li.experience {
+  font-size: 30px;
+  margin-left: 150px;
 }
 li.specific {
   margin-left: 200px;
   font-size: 30px;
 }
-li.experience {
-  font-size: 30px;
-}
 .background {
   position: fixed;
   z-index: -1;
+  width: auto;
+  /*max-width: 1350px;*/
+  height: 600px;
+  /*max-height: 800px;*/
 }
-.right {
-  float: right;
-  padding-bottom: 500px;
+.all {
+  display: inline-table;
+  margin-bottom: 100px;
+  opacity: 0.5;
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  margin-right: auto;
 }
 .left {
   float: left;
-  padding-bottom: 500px;
+  margin-left: 20px;
+}
+.right {
+  float: right;
+  margin-left: 70px;
+  padding-right: 20px;
+  margin-right: auto;
 }
