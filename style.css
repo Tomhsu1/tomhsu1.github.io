@@ -41,7 +41,6 @@ div.slide-right {
 div.slide-right p, ol {
   animation: slide-right 3s;
   overflow: hidden;
-
 }
 @keyframes slide-right{
   from {
@@ -140,6 +139,7 @@ h1.underneath {
   font-size: 175px;
   margin-left: 200px;
   margin-top: auto;
+  font-size: auto;
   margin-bottom: auto;
   margin-right: auto;
   color: red;
@@ -163,13 +163,16 @@ h1.normal {
 .sizing {
   font-size: 100px;
 }
+.sizingP {
+  font-size: 50px;
+}
 .sizingEx {
   font-size: 100px;
   margin-right: 100px;
 }
 li.experience {
   font-size: 30px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 li.specific {
   margin-left: 200px;
@@ -184,15 +187,21 @@ li.specific {
   /*max-height: 800px;*/
 }
 .all {
-  display: inline-block;
-  margin-bottom: 500px;
-  background-color: white;
+  display: inline-table;
+  margin-bottom: 100px;
   opacity: 0.5;
-  color: green;
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  margin-right: auto;
 }
 .left {
   float: left;
+  margin-left: 20px;
 }
 .right {
   float: right;
+  margin-left: 70px;
+  padding-right: 20px;
+  margin-right: auto;
 }
