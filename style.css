@@ -181,9 +181,9 @@ li.specific {
 .background {
   position: fixed;
   z-index: -1;
-  width: 675px;
+  width: auto;
   /*max-width: 1350px;*/
-  height: 800px;
+  height: 600px;
   /*max-height: 800px;*/
 }
 .all {
