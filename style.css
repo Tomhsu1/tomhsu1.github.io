@@ -12,7 +12,7 @@ p, ol {
   margin-right: 110px;
   margin-left: 120px;
   /*background-color: #1100FF;*/
-  background-color: blue;
+  background-color: black;
   padding-left: 30px;
 }
 
@@ -55,7 +55,7 @@ div.slide-right p, ol {
 h1, h2 {
   text-align: center;
   font-weight: bold;
-  color: #1100FF;
+  color: black;
 
 }
 table {
@@ -136,13 +136,13 @@ p.extraSpacing {
 h1.underneath {
   opacity: 0.4;
   position: absolute;
-  font-size: 175px;
+  font-size: 13vw;
   margin-left: 200px;
   margin-top: auto;
   font-size: auto;
   margin-bottom: auto;
   margin-right: auto;
-  color: red;
+  color: white;
   transform:rotate(356deg);
 }
 h1.normal {
@@ -181,9 +181,10 @@ li.specific {
 .background {
   position: fixed;
   z-index: -1;
+  min-width: 600px;
+  max-width: 1350px;
   width: auto;
-  /*max-width: 1350px;*/
-  height: 600px;
+  height: 630px;
   /*max-height: 800px;*/
 }
 .all {
