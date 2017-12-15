@@ -8,12 +8,12 @@ body.skills {
 
 p, ol {
   color: blue;
-  font-size: 20px;
-  margin-right: 110px;
-  margin-left: 120px;
+  font-size: 1.5vw;
+  margin-right: 8vw;
+  margin-left: 9vw;
   /*background-color: #1100FF;*/
   background-color: black;
-  padding-left: 30px;
+  padding-left: 2vw;
 }
 
 #customer, #filing, #css, #publicSpeaking, #fcp {
@@ -188,8 +188,8 @@ li.specific {
 .background {
   position: fixed;
   z-index: -1;
-  width: 1350px;
-  height: 630px;
+  width: 100vw;
+  height: 100vh;
   /*max-height: 800px;*/
 }
 .all {
