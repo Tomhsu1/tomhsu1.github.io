@@ -7,7 +7,7 @@ body.skills {
 }
 
 p, ol {
-  color: pink;
+  color: blue;
   font-size: 20px;
   margin-right: 110px;
   margin-left: 120px;
@@ -49,7 +49,7 @@ div.slide-right p, ol {
   }
   to {
     margin-left: 18%;
-    width: 100%;
+    width: 55vw;
   }
 }
 h1, h2 {
@@ -134,7 +134,7 @@ p.extraSpacing {
   margin-bottom: 500px;
 }
 h1.underneath {
-  opacity: 0.4;
+  opacity: 0.2;
   position: absolute;
   font-size: 13vw;
   margin-left: 200px;
@@ -142,7 +142,7 @@ h1.underneath {
   font-size: auto;
   margin-bottom: auto;
   margin-right: auto;
-  color: white;
+  color: yellow;
   transform:rotate(356deg);
 }
 h1.normal {
@@ -172,7 +172,7 @@ h1.normal {
 }
 li.experience {
   font-size: 30px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 li.specific {
   margin-left: 200px;
@@ -181,14 +181,12 @@ li.specific {
 .background {
   position: fixed;
   z-index: -1;
-  min-width: 600px;
-  max-width: 1350px;
-  width: auto;
+  width: 1350px;
   height: 630px;
   /*max-height: 800px;*/
 }
 .all {
-  display: inline-table;
+  display: inline-block;
   margin-bottom: 100px;
   opacity: 0.5;
   color: red;
@@ -202,7 +200,8 @@ li.specific {
 }
 .right {
   float: right;
-  margin-left: 70px;
+  margin-left: 2vw;
   padding-right: 20px;
   margin-right: auto;
+  padding-left: 3vw;
 }
