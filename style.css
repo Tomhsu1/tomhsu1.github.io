@@ -55,7 +55,7 @@ div.slide-right p, ol {
 h1, h2 {
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: blue;
 
 }
 table {
@@ -134,7 +134,7 @@ p.extraSpacing {
   margin-bottom: 500px;
 }
 h1.underneath {
-  opacity: 0.2;
+  opacity: 0.3;
   position: absolute;
   font-size: 13vw;
   margin-left: 200px;
@@ -142,7 +142,7 @@ h1.underneath {
   font-size: auto;
   margin-bottom: auto;
   margin-right: auto;
-  color: yellow;
+  color: red;
   transform:rotate(356deg);
 }
 h1.normal {
@@ -161,22 +161,29 @@ h1.normal {
   padding-bottom: 100px;
 }
 .sizing {
-  font-size: 100px;
+  /*font-size: 100px;*/
+  font-size: 7vw;
 }
 .sizingP {
   font-size: 50px;
 }
 .sizingEx {
-  font-size: 100px;
-  margin-right: 100px;
+  /*font-size: 100px;*/
+  font-size: 7vw;
+  margin-right: 11vw;
+  margin-left: 4vw;
 }
 li.experience {
-  font-size: 30px;
-  margin-left: 100px;
+  /*font-size: 30px;*/
+  font-size: 2vw;
+  /*margin-left: 100px;*/
+  margin-left: 12vw;
 }
 li.specific {
-  margin-left: 200px;
-  font-size: 30px;
+  /*margin-left: 200px;*/
+  margin-left: 17vw;
+  /*font-size: 30px;*/
+  font-size: 2vw;
 }
 .background {
   position: fixed;
@@ -203,5 +210,4 @@ li.specific {
   margin-left: 2vw;
   padding-right: 20px;
   margin-right: auto;
-  padding-left: 3vw;
 }
